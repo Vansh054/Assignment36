@@ -46,11 +46,11 @@ function draw() {
   textSize(13)
   if (lastFed >12)
   {
-    text("Last Feed : " + lastFed%12+ " PM",300,100)
+    text("Last Feed : " + lastFed%12+ " PM",285,65)
   }
   else if (lastFed == 0)
   {
-    text("Last Feed : 12 PM",300,100)
+    text("Last Feed : 12 PM",285,65)
   } else {
     text("Last Feed : "+ lastFed + " AM",285,65)
   }
